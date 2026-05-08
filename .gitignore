@@ -22,9 +22,12 @@ fuxictr/
 # VSCode
 .vscode/
 
-# Dataset files
-data/
+# Large dataset blobs (keep small placeholders under data/)
+*.parquet
+*.npz
+*.h5
 datasets/
+data/MicroLens_1M_x1/
 
 # Temp
 temp/
